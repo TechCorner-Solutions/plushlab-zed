@@ -2,25 +2,22 @@
 
 # PlushLab for Zed
 
-PlushLab's colours in your editor: the night sky (`#07071a`) and the one pale
-indigo accent (`#a5b0f8`), with mint for what's added and rose for what's
-gone — the same as the app (see `DESIGN.md` in PlushLab).
+PlushLab's look in your editor: the night sky and one pale indigo accent, with
+mint for what's added and rose for what's gone.
 
-- **PlushLab Night** — the dark theme, as the app.
-- **PlushLab Day** — a light one from the logo's light colours.
-- **PlushLab Icons** (and **PlushLab Icons Light**) — folders with cat ears,
-  the PlushLab cat on READMEs and `CLAUDE.md` / `AGENTS.md`, and an icon per
-  kind of file (TypeScript, React, JSON, Markdown, CSS, images, git, env,
-  Docker, SQL, shell, Rust, Python, Go, tests, lock files…).
+- **PlushLab Night** — a dark theme, soft on the eyes for long sessions.
+- **PlushLab Day** — its light counterpart.
+- **PlushLab Icons** and **PlushLab Icons Light** — folders with cat ears, the
+  PlushLab cat on your READMEs, and an icon for each kind of file.
 
-## Install (from this folder)
+## Install
 
-1. In Zed: ⌘⇧P › **zed: install dev extension**, and pick this folder
-   (`~/Projects/PlushLab-Zed`).
-2. ⌘K ⌘T › **PlushLab Night** (or Day).
-3. ⌘⇧P › **icon theme selector: toggle** › **PlushLab Icons**.
+1. Open Zed's extensions (⌘⇧X), search for **PlushLab** and install it.
+2. Pick the theme: ⌘K ⌘T › **PlushLab Night** (or **PlushLab Day**).
+3. Pick the icons: ⌘⇧P › **icon theme selector: toggle** › **PlushLab Icons**.
 
-Or in `~/.config/zed/settings.json`:
+To follow your system's light and dark mode, add this to your Zed settings
+(⌘,):
 
 ```json
 {
@@ -29,16 +26,22 @@ Or in `~/.config/zed/settings.json`:
 }
 ```
 
-## Changing it
+## File icons
 
-The files are generated: change the colours in `scripts/build-themes.py`, the
-icons and which files get them in `scripts/build-icons.py`, then
+| Icon for | Files |
+| --- | --- |
+| The PlushLab cat | `README`, `README.md`, `DESIGN.md` |
+| TypeScript, JavaScript, React | `.ts` `.mts` `.cts`, `.js` `.mjs` `.cjs`, `.tsx` `.jsx` |
+| Data and config | `.json` `.jsonc`, `.toml` `.yaml` `.yml` `.ini` `.xml`, `.env` |
+| Web | `.html`, `.css` `.scss` `.sass` `.less`, images and `.svg` |
+| Docs | `.md` `.mdx`, `.txt` `.log`, `LICENSE` |
+| Databases | `.sql` `.prisma` `.db` `.sqlite` |
+| Tooling | git files, `Dockerfile` and compose files, lock files, shell scripts and `Makefile`, tests (`.test.*`, `.spec.*`) |
+| Languages | Rust, Python, Go |
 
-```sh
-python3 scripts/build-themes.py   # themes/plushlab.json
-python3 scripts/build-icons.py    # icons/*.svg and icon_themes/plushlab-icons.json
-python3 scripts/build-banner.py   # assets/banner.svg and .png (needs Google Chrome)
-```
+Everything else gets a plain file icon in the theme's colours.
 
-and ⌘⇧P › **zed: rebuild dev extension**. Icons are 16×16 SVGs in the app's
-colours (`DESIGN.md` in PlushLab-App).
+## Note
+
+Zed draws its own toolbar and status-bar icons; extensions can't replace them.
+The themes recolour them to match.
