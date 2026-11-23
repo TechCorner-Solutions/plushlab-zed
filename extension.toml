@@ -1,0 +1,9 @@
+id = "plushlab"
+name = "PlushLab"
+version = "0.1.0"
+schema_version = 1
+description = "PlushLab's night sky and pale indigo for Zed: a dark and a light theme, and file icons with the PlushLab cat."
+authors = ["PlushLab"]
+repository = "https://github.com/TechCorner-Solutions/PlushLab-Zed"
+themes = ["themes/plushlab.json"]
+icon_themes = ["icon_themes/plushlab-icons.json"]

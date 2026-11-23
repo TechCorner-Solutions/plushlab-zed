@@ -1,0 +1,329 @@
+{
+  "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
+  "name": "PlushLab Icons",
+  "author": "PlushLab",
+  "themes": [
+    {
+      "name": "PlushLab Icons",
+      "appearance": "dark",
+      "directory_icons": {
+        "collapsed": "./icons/folder.svg",
+        "expanded": "./icons/folder-open.svg"
+      },
+      "chevron_icons": {
+        "collapsed": "./icons/chevron-right.svg",
+        "expanded": "./icons/chevron-down.svg"
+      },
+      "file_stems": {
+        "README": "plushlab",
+        "README.md": "plushlab",
+        "CLAUDE.md": "plushlab",
+        "AGENTS.md": "plushlab",
+        "DESIGN.md": "plushlab",
+        ".gitignore": "git",
+        ".gitattributes": "git",
+        ".gitmodules": "git",
+        "Dockerfile": "docker",
+        "docker-compose.yml": "docker",
+        "docker-compose.yaml": "docker",
+        "compose.yml": "docker",
+        "compose.yaml": "docker",
+        ".env": "env",
+        ".env.local": "env",
+        ".env.example": "env",
+        ".env.production": "env",
+        "package-lock.json": "lock",
+        "pnpm-lock.yaml": "lock",
+        "yarn.lock": "lock",
+        "Cargo.lock": "lock",
+        "go.sum": "lock",
+        "Makefile": "shell",
+        "LICENSE": "text"
+      },
+      "file_suffixes": {
+        "ts": "typescript",
+        "mts": "typescript",
+        "cts": "typescript",
+        "js": "javascript",
+        "mjs": "javascript",
+        "cjs": "javascript",
+        "tsx": "react",
+        "jsx": "react",
+        "json": "json",
+        "jsonc": "json",
+        "json5": "json",
+        "md": "markdown",
+        "mdx": "markdown",
+        "css": "css",
+        "scss": "css",
+        "sass": "css",
+        "less": "css",
+        "html": "html",
+        "htm": "html",
+        "svg": "image",
+        "png": "image",
+        "jpg": "image",
+        "jpeg": "image",
+        "gif": "image",
+        "webp": "image",
+        "ico": "image",
+        "avif": "image",
+        "lock": "lock",
+        "toml": "config",
+        "yaml": "config",
+        "yml": "config",
+        "ini": "config",
+        "conf": "config",
+        "xml": "config",
+        "env": "env",
+        "sql": "database",
+        "prisma": "database",
+        "db": "database",
+        "sqlite": "database",
+        "sh": "shell",
+        "bash": "shell",
+        "zsh": "shell",
+        "fish": "shell",
+        "rs": "rust",
+        "py": "python",
+        "go": "go",
+        "txt": "text",
+        "log": "text",
+        "test.ts": "test",
+        "test.tsx": "test",
+        "spec.ts": "test",
+        "spec.tsx": "test",
+        "test.js": "test"
+      },
+      "file_icons": {
+        "config": {
+          "path": "./icons/config.svg"
+        },
+        "css": {
+          "path": "./icons/css.svg"
+        },
+        "database": {
+          "path": "./icons/database.svg"
+        },
+        "default": {
+          "path": "./icons/file.svg"
+        },
+        "docker": {
+          "path": "./icons/docker.svg"
+        },
+        "env": {
+          "path": "./icons/env.svg"
+        },
+        "git": {
+          "path": "./icons/git.svg"
+        },
+        "go": {
+          "path": "./icons/go.svg"
+        },
+        "html": {
+          "path": "./icons/html.svg"
+        },
+        "image": {
+          "path": "./icons/image.svg"
+        },
+        "javascript": {
+          "path": "./icons/javascript.svg"
+        },
+        "json": {
+          "path": "./icons/json.svg"
+        },
+        "lock": {
+          "path": "./icons/lock.svg"
+        },
+        "markdown": {
+          "path": "./icons/markdown.svg"
+        },
+        "plushlab": {
+          "path": "./icons/plushlab.svg"
+        },
+        "python": {
+          "path": "./icons/python.svg"
+        },
+        "react": {
+          "path": "./icons/react.svg"
+        },
+        "rust": {
+          "path": "./icons/rust.svg"
+        },
+        "shell": {
+          "path": "./icons/shell.svg"
+        },
+        "test": {
+          "path": "./icons/test.svg"
+        },
+        "text": {
+          "path": "./icons/text.svg"
+        },
+        "typescript": {
+          "path": "./icons/typescript.svg"
+        }
+      }
+    },
+    {
+      "name": "PlushLab Icons Light",
+      "appearance": "light",
+      "directory_icons": {
+        "collapsed": "./icons/folder-light.svg",
+        "expanded": "./icons/folder-open-light.svg"
+      },
+      "chevron_icons": {
+        "collapsed": "./icons/chevron-right.svg",
+        "expanded": "./icons/chevron-down.svg"
+      },
+      "file_stems": {
+        "README": "plushlab",
+        "README.md": "plushlab",
+        "CLAUDE.md": "plushlab",
+        "AGENTS.md": "plushlab",
+        "DESIGN.md": "plushlab",
+        ".gitignore": "git",
+        ".gitattributes": "git",
+        ".gitmodules": "git",
+        "Dockerfile": "docker",
+        "docker-compose.yml": "docker",
+        "docker-compose.yaml": "docker",
+        "compose.yml": "docker",
+        "compose.yaml": "docker",
+        ".env": "env",
+        ".env.local": "env",
+        ".env.example": "env",
+        ".env.production": "env",
+        "package-lock.json": "lock",
+        "pnpm-lock.yaml": "lock",
+        "yarn.lock": "lock",
+        "Cargo.lock": "lock",
+        "go.sum": "lock",
+        "Makefile": "shell",
+        "LICENSE": "text"
+      },
+      "file_suffixes": {
+        "ts": "typescript",
+        "mts": "typescript",
+        "cts": "typescript",
+        "js": "javascript",
+        "mjs": "javascript",
+        "cjs": "javascript",
+        "tsx": "react",
+        "jsx": "react",
+        "json": "json",
+        "jsonc": "json",
+        "json5": "json",
+        "md": "markdown",
+        "mdx": "markdown",
+        "css": "css",
+        "scss": "css",
+        "sass": "css",
+        "less": "css",
+        "html": "html",
+        "htm": "html",
+        "svg": "image",
+        "png": "image",
+        "jpg": "image",
+        "jpeg": "image",
+        "gif": "image",
+        "webp": "image",
+        "ico": "image",
+        "avif": "image",
+        "lock": "lock",
+        "toml": "config",
+        "yaml": "config",
+        "yml": "config",
+        "ini": "config",
+        "conf": "config",
+        "xml": "config",
+        "env": "env",
+        "sql": "database",
+        "prisma": "database",
+        "db": "database",
+        "sqlite": "database",
+        "sh": "shell",
+        "bash": "shell",
+        "zsh": "shell",
+        "fish": "shell",
+        "rs": "rust",
+        "py": "python",
+        "go": "go",
+        "txt": "text",
+        "log": "text",
+        "test.ts": "test",
+        "test.tsx": "test",
+        "spec.ts": "test",
+        "spec.tsx": "test",
+        "test.js": "test"
+      },
+      "file_icons": {
+        "config": {
+          "path": "./icons/config.svg"
+        },
+        "css": {
+          "path": "./icons/css.svg"
+        },
+        "database": {
+          "path": "./icons/database.svg"
+        },
+        "default": {
+          "path": "./icons/file.svg"
+        },
+        "docker": {
+          "path": "./icons/docker.svg"
+        },
+        "env": {
+          "path": "./icons/env.svg"
+        },
+        "git": {
+          "path": "./icons/git.svg"
+        },
+        "go": {
+          "path": "./icons/go.svg"
+        },
+        "html": {
+          "path": "./icons/html.svg"
+        },
+        "image": {
+          "path": "./icons/image.svg"
+        },
+        "javascript": {
+          "path": "./icons/javascript.svg"
+        },
+        "json": {
+          "path": "./icons/json.svg"
+        },
+        "lock": {
+          "path": "./icons/lock.svg"
+        },
+        "markdown": {
+          "path": "./icons/markdown.svg"
+        },
+        "plushlab": {
+          "path": "./icons/plushlab.svg"
+        },
+        "python": {
+          "path": "./icons/python.svg"
+        },
+        "react": {
+          "path": "./icons/react.svg"
+        },
+        "rust": {
+          "path": "./icons/rust.svg"
+        },
+        "shell": {
+          "path": "./icons/shell.svg"
+        },
+        "test": {
+          "path": "./icons/test.svg"
+        },
+        "text": {
+          "path": "./icons/text.svg"
+        },
+        "typescript": {
+          "path": "./icons/typescript.svg"
+        }
+      }
+    }
+  ]
+}
