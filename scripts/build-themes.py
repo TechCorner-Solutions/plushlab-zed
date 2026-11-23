@@ -73,15 +73,17 @@ def theme(name, appearance, c):
     }
     return {"name": name, "appearance": appearance, "style": s}
 
+# Night, softened for long reading: near-white on near-black glares (about 17:1),
+# so the page is a shade lighter and the text a shade dimmer (about 12:1).
 night = dict(
-    bg="#07071a", chrome="#0d0d24", panel="#0d0d24", editor="#07071a", surface="#0d0d24", elevated="#15153a",
-    border="#22224f", border_soft="#16163a", element="#15153a", hover="#1c1c46", active="#25255a", selected="#25255a",
-    text="#e6e8f5", text_soft="#b9bcd6", heading="#f4f5fb", muted="#8d90b5", placeholder="#5b5e86", line_number="#3d3f6b",
-    accent="#a5b0f8", green="#6ee7b7", red="#fca5a5", amber="#fcd34d", sky="#7dd3fc", pink="#f0abfc", peach="#fdba74",
-    ansi=["#15153a", "#fca5a5", "#6ee7b7", "#fcd34d", "#a5b0f8", "#f0abfc", "#7dd3fc", "#d6d8ea"],
-    ansi_bright=["#4a4c78", "#fecaca", "#a7f3d0", "#fde68a", "#c8cefc", "#f5d0fe", "#bae6fd", "#f4f5fb"],
-    syntax=dict(keyword="#a5b0f8", function="#7dd3fc", string="#6ee7b7", number="#fdba74", type="#fcd34d", property="#c8cefc",
-                comment="#6b6e96", comment_doc="#7c7fa3", tag="#f0abfc", regex="#fca5a5", operator="#949ff2", punct="#8d90b5"),
+    bg="#0b0b20", chrome="#101029", panel="#101029", editor="#0b0b20", surface="#101029", elevated="#17173d",
+    border="#24245a", border_soft="#18183f", element="#17173d", hover="#1e1e4a", active="#27275e", selected="#27275e",
+    text="#cdd0e6", text_soft="#a9acc9", heading="#e1e3f2", muted="#8487ab", placeholder="#5b5e86", line_number="#3f4170",
+    accent="#a5b0f8", green="#7ed7b0", red="#efa3a3", amber="#ecc95e", sky="#86c9ec", pink="#e2a9ef", peach="#f2b27a",
+    ansi=["#17173d", "#efa3a3", "#7ed7b0", "#ecc95e", "#a5b0f8", "#e2a9ef", "#86c9ec", "#c3c6dd"],
+    ansi_bright=["#4a4c78", "#f6c3c3", "#a5e6c9", "#f3dc8f", "#c4caf6", "#efcaf6", "#b3dcf2", "#e1e3f2"],
+    syntax=dict(keyword="#a5b0f8", function="#86c9ec", string="#7ed7b0", number="#f2b27a", type="#ecc95e", property="#bcc2ee",
+                comment="#6b6e96", comment_doc="#7c7fa3", tag="#e2a9ef", regex="#efa3a3", operator="#949ff2", punct="#8487ab"),
 )
 day = dict(
     bg="#f7f7fc", chrome="#eef0fb", panel="#eef0fb", editor="#ffffff", surface="#f4f5fb", elevated="#ffffff",
