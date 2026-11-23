@@ -12,9 +12,25 @@ mint for what's added and rose for what's gone.
 
 ## Install
 
-1. Open Zed's extensions (⌘⇧X), search for **PlushLab** and install it.
-2. Pick the theme: ⌘K ⌘T › **PlushLab Night** (or **PlushLab Day**).
-3. Pick the icons: ⌘⇧P › **icon theme selector: toggle** › **PlushLab Icons**.
+1. Get the extension:
+
+   ```sh
+   git clone https://github.com/TechCorner-Solutions/plushlab-zed.git
+   ```
+
+2. In Zed: ⌘⇧P › **zed: install dev extension**, and pick the `plushlab-zed`
+   folder.
+3. Pick the theme: ⌘K ⌘T › **PlushLab Night** (or **PlushLab Day**).
+4. Pick the icons: ⌘⇧P › **icon theme selector: toggle** › **PlushLab Icons**.
+
+## Update
+
+```sh
+cd plushlab-zed
+git pull
+```
+
+then in Zed: ⌘⇧P › **zed: rebuild dev extension**.
 
 To follow your system's light and dark mode, add this to your Zed settings
 (⌘,):

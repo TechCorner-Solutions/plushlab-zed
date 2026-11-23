@@ -1,6 +1,6 @@
 id = "plushlab"
 name = "PlushLab"
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 description = "PlushLab's night sky and pale indigo for Zed: a dark and a light theme, and file icons with the PlushLab cat."
 authors = ["PlushLab"]
